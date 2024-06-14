@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="/kms.css">
+<title>FSA | Knowledge Portal</title>
+</head>
+<body>
+<div id="top"></div>
+<div id="logo">
+<img src="/NSW-Gov-logo.svg">
+</div>
+<div id="genesys-support-center">
+<p style="text-align: center;"><strong>Welcome to the Food Safety Authority Knowledge Base</strong></p>
+<p style="text-align: center;"><strong>Please wait...content is loading</strong></p>
+</div>	  
+<script type="text/javascript" charset="utf-8">
+    console.log("Starting Genesys script initialization...");
+    (function (g, e, n, es, ys) {
+        console.log("Inside IIFE...");
+        g['_genesysJs'] = e;
+        g[e] = g[e] || function () {
+            console.log("Genesys function executed...");
+            (g[e].q = g[e].q || []).push(arguments);
+        };
+        g[e].t = 1 * new Date();
+        g[e].c = es;
+        ys = document.createElement('script'); 
+        ys.async = 1; 
+        ys.src = n; 
+        ys.charset = 'utf-8'; 
+        ys.onload = function() {
+            console.log("Genesys script loaded successfully");
+        };
+        ys.onerror = function() {
+            console.error("Failed to load Genesys script");
+        };
+        document.head.appendChild(ys);
+        console.log("Script appended to head...");
+    })(window, 'Genesys', 'https://apps.mypurecloud.com.au/genesys-bootstrap/genesys.min.js', {
+        environment: 'prod-apse2',
+        deploymentId: 'b0f6e16c-547e-43b6-b833-b500a6a9b62e'
+    });
+    console.log("Genesys script initialization completed...");
+</script>
+</body>
+</html>

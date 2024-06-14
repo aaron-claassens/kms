@@ -1,0 +1,83 @@
+body {
+  margin: 25px;
+  /* background-color: rgb(240,240,240); */
+  background-color: #002664;
+  font-family: "Public Sans", Arial, sans-serif;
+  font-size: 11pt;
+  color: #ffffff;
+}
+
+p {
+  font-family: "Public Sans", Arial, sans-serif;
+  /* font-size: 11pt; */
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+.genesys-support-center {
+  /* color: red; */
+  background-color: #EFF8FF;
+}
+
+#top {
+  float: left !important;
+  position: absolute !important;
+  top: 0px !important;
+  left: 0px !important;
+}
+
+#logo {
+  text-align: center;
+  max-height: 110px;
+  width: 100px;
+  background-color: #002664;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.KnowledgeSearch_mainContainer_wExYe {
+  background: var(--brand-hero-background-color) !important;
+  background-image: var(--brand-hero-background-image) !important;
+  background-repeat: repeat-x !important;
+  background-size: contain !important;
+  min-width: min-content !important;
+  color: var(--brand-hero-text-color) !important;
+  position: relative !important;
+  z-index: 10 !important;
+  background-position-y: bottom !important;
+}
+
+div[class^="EmptySection_emptySection_"] {
+  margin-top: 100px !important;
+  margin-bottom: 50px !important;
+}
+
+table, table, table[class^="ArticleElements_articleTable_"] * {
+  table-layout: fixed !important;
+  max-width: 100% !important;
+  width: auto !important;
+}
+
+td[class^="ArticleElements_articleCell_"] {
+  border: 1.5px solid #7d7c7c !important;
+}
+
+
+/* div[class^="KnowledgeSearch_mainContainer"] {
+  background: var(--brand-hero-background-color);
+  background-image: var(--brand-hero-background-image);
+  background-repeat: repeat-x;
+  background-size: contain;
+  min-width: min-content;
+  color: var(--brand-hero-text-color);
+  position: relative;
+  z-index: 10;
+  background-position-y: bottom;
+} */
